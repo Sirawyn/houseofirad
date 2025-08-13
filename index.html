@@ -12,10 +12,10 @@
       font-family: 'Nanum Myeongjo', serif;
       font-weight: bold;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       height: 100vh;
-      text-align: center;
       padding: 2rem;
     }
     .text {
@@ -23,13 +23,38 @@
       font-size: 1.5rem;
       max-width: 70ch;
       text-transform: uppercase;
+      text-align: right;
+      font-style: italic;
+    }
+    .logo {
+      margin-top: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .logo img {
+      max-width: 200px;
+      height: auto;
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="text">
-"I WAS ONCE A GREAT CONQUEROR. MY HANDS BORE A ROARING WEAPON THAT SWEPT NATIONS INTO THE SEAS. MY ARMIES WERE MASTERFUL PAINTERS- WHAT FOLLOWED THEM WAS A BRUSHSTROKE OF BLOOD AND ASH THAT STRETCHED TO EVERY HORIZON.  BUT MY SWORD ARM HAS GROWN TIRED, AND MY RESOLVE HAS GROWN WEARY. SOMEWHERE UNDER HEAVEN IS A MASTER OF VOICES. THEY CAN ASK FLOWERS TO GROW FROM THE DRIEST DESERT. THEY CAN SING A SONG SO BEAUTIFUL THAT IT HALTS ARMIES IN THEIR MARCH. I WISH TO FIND THIS PERSON. I WISH TO BE INSPIRED BY THEM. I WISH TO BE CONVINCED THAT SWORDSMEN LIKE ME NEED NOT EXIST."
+I was once a great conqueror.
+My hands bore a roaring weapon that swept nations into the seas.
+My armies were masterful painters- what followed them was 
+a brushstroke of blood and ash that stretched to every horizon.
+But my sword arm has grown tired, and my resolve has grown weary.
+Somewhere under Heaven is a master of voices.
+They can ask flowers to grow from the driest desert.
+They can sing a song so beautiful that it halts armies in their march.
+I wish to find this person.
+I wish to be inspired by them.
+I wish to be convinced that swordsmen like me need not exist.
+  </div>
+  <div class="logo">
+    <img src="https://raw.githubusercontent.com/Sirawyn/houseofirad/main/IRAD%20LOGO.svg" alt="IRAD Logo">
   </div>
 </body>
 </html>
